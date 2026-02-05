@@ -1,0 +1,23 @@
+body { background: #f4f6f9; font-family: 'Segoe UI', sans-serif; }
+.navbar-brand { font-weight: 700; font-size: 1.6rem; }
+.login-card, .create-post-card, .profile-card, .dashboard-card { border-radius: 15px; background-color: #ffffff; }
+input:focus, textarea:focus { border-color: #0d6efd; box-shadow: 0 0 0 0.2rem rgba(13,110,253,0.25); outline: none; }
+.btn-primary:hover { background-color: #0b5ed7; } 
+.btn-success:hover { background-color: #198754; }
+.btn-danger:hover { background-color: #dc3545cc; }
+.btn-outline-light:hover { background-color: #ffffff22; color: #0d6efd; }
+a { text-decoration: none; } a:hover { text-decoration: underline; }
+.post-card { border-radius: 12px; background-color: #ffffff; box-shadow: 0 2px 6px rgba(0,0,0,0.05); padding: 15px; transition: transform 0.2s; }
+.post-card:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+.comment-input { width: 100%; border-radius: 8px; margin-bottom: 5px; }
+.comment-text { font-size: 0.85rem; }
+#skillsPreview .badge { font-size: 0.85rem; padding: 0.5em 0.75em; margin: 2px; }
+.stat-card { border-radius: 12px; background-color: #f8f9fa; }
+.stat-card h5 { font-weight: 700; font-size: 1.5rem; } 
+.stat-card p { margin: 0; color: #6c757d; }
+
+@media (max-width:768px){ .btn{width:100%;margin-bottom:8px;} }
+
+
+
+
